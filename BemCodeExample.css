@@ -1,0 +1,46 @@
+/*
+This stylesheet is written in BEM
+
+Block - .block
+Element - .block__element
+Modifier - .block__element__modifier / block--modifier
+
+*/
+
+/* Blocks **********************/
+
+.block1 {
+	height: 200px;
+	width: 100%;
+	border: 0;
+	overflow: hidden;
+
+}
+
+.block2 {
+
+}
+
+/* Elements **********************/
+
+.block1__element1 {
+	height: 10px;
+	width: 50px;
+}
+
+.block1__element2 {
+
+}
+
+/* Modifiers **********************/
+
+.block1__element1__success {
+	background-color: green;
+}
+
+.block1__element1__danger {
+	background-color: red;
+}
+
+
+
