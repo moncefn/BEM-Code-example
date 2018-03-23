@@ -1,15 +1,14 @@
 /*
-This stylesheet is written in BEM
+Stylesheet written with BEM methodology
 
 Block - .block
 Element - .block__element
 Modifier - .block__element__modifier / block--modifier
 
 */
+/* ============================= Blocks =============================*/
 
-/* Blocks **********************/
-
-.block1 {
+.navbar {
 	height: 200px;
 	width: 100%;
 	border: 0;
@@ -17,28 +16,28 @@ Modifier - .block__element__modifier / block--modifier
 
 }
 
-.block2 {
+.footer {
 
 }
 
-/* Elements **********************/
+/* ============================= Elements =============================*/
 
-.block1__element1 {
+.navbar__button {
 	height: 10px;
 	width: 50px;
 }
 
-.block1__element2 {
+.navbar__input {
 
 }
 
-/* Modifiers **********************/
+/* ============================= Modifiers =============================*/
 
-.block1__element1__success {
+.navbar__button__success {
 	background-color: green;
 }
 
-.block1__element1__danger {
+.navbar__button__danger {
 	background-color: red;
 }
 
