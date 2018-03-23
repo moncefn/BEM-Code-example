@@ -3,7 +3,7 @@ Stylesheet written with BEM methodology
 
 Block - .block
 Element - .block__element
-Modifier - .block__element__modifier / block--modifier
+Modifier - .block__element--modifier / block--modifier
 
 */
 /* ============================= Blocks =============================*/
@@ -33,11 +33,11 @@ Modifier - .block__element__modifier / block--modifier
 
 /* ============================= Modifiers =============================*/
 
-.navbar__button__success {
+.navbar__button--success {
 	background-color: green;
 }
 
-.navbar__button__danger {
+.navbar__button--danger {
 	background-color: red;
 }
 
